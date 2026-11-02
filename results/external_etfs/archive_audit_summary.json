@@ -1,0 +1,17 @@
+{
+  "external_dates": 190,
+  "dataset_rows": 970,
+  "pretest_rows": 780,
+  "holdout_rows": 190,
+  "mean_scores": {
+    "expanding_neural": 0.5184294614352678,
+    "rolling_neural": 0.49130016063389026,
+    "expanding_two_tree": 1.4688910256267216,
+    "rolling_two_tree": 1.5229439604950215,
+    "dynamic_student_t": 1.8128560396035853,
+    "gaussian_ewma": 1.7227410759566313
+  },
+  "proposed_architecture": "4 rotated Clayton components (NOT estimated, NO held-out claims)",
+  "funding": "author confirmed none",
+  "competing_interests": "author confirmed none"
+}

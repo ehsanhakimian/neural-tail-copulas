@@ -1,0 +1,18 @@
+{
+  "seed": 20260926,
+  "T": 1800,
+  "d": 10,
+  "train_end": 1200,
+  "val_end": 1450,
+  "theta_min": 0.05,
+  "theta_max": 8.0,
+  "omega_eps": 0.02,
+  "hidden": 14,
+  "emb": 4,
+  "lr": 0.015,
+  "max_epochs": 220,
+  "patience": 30,
+  "risk_mc": 10000,
+  "matrix_mc": 12000,
+  "q_tail": 0.05
+}

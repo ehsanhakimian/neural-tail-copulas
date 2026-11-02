@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated research manuscript."
+title: "Macro-Conditioned Neural Copulas for Asymmetric Tail Risk"
+type: software
+authors:
+  - family-names: Hakimian
+    given-names: Ehsan
+    orcid: "https://orcid.org/0009-0001-4721-1361"
+    affiliation: "University of Applied Sciences for Business & Society BFI Vienna"
+date-released: "2026-11-02"

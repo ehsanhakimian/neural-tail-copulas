@@ -1,0 +1,32 @@
+{
+  "tickers": [
+    "EFA",
+    "EEM",
+    "GLD",
+    "IEF",
+    "TLT",
+    "VNQ"
+  ],
+  "root": "EFA",
+  "training_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "test_fraction": 0.2,
+  "rolling_window": 260,
+  "refit_cadence": 26,
+  "max_epochs": 18,
+  "features": "price only",
+  "no_original_sector_ETFs": true,
+  "evaluation_rule": "locked before first inspection: evaluate all predefined models once",
+  "data_source": "Yahoo Finance adjusted prices (retrospectively adjusted), downloaded in Colab",
+  "date_range_observed": [
+    "2008-04-04",
+    "2026-10-30"
+  ],
+  "n_weeks": 970,
+  "prices_as_of_warning": "Adjusted historic prices are not reconstructible as real-time price vintages",
+  "feature_timing": "each x feature depends only on EFA returns observed before forecast week",
+  "input_sha256": "1970306601b17081813fc00a67533759f286f1dd1d466d00ee00842315df7012",
+  "start_requested": "2008-01-01",
+  "end_exclusive": "2026-11-01",
+  "holdout_note": "This is a new asset-universe holdout, NOT an untouched calendar period; do not retune after inspecting it."
+}

@@ -1,0 +1,44 @@
+{
+  "input_file": "/content/drive/MyDrive/Copula_Research/Next_Evidence/observations_REVISED_2014_2026.csv",
+  "feature_ablation": "all",
+  "original_test_start": "2024-05-24",
+  "original_test_end": "2026-10-30",
+  "n_test": 128,
+  "cadence_weeks": 26,
+  "epochs": 18,
+  "rolling_window_weeks": 260,
+  "expanding_start": "2014-08-29",
+  "dynamic_student_t_df": 5.0,
+  "df_validation_scores": [
+    [
+      2.9635359116655957,
+      4.0
+    ],
+    [
+      2.976641631764616,
+      5.0
+    ],
+    [
+      2.9749181507964106,
+      6.0
+    ],
+    [
+      2.959352951002071,
+      8.0
+    ],
+    [
+      2.9245435425501953,
+      12.0
+    ],
+    [
+      2.8748486301378957,
+      20.0
+    ]
+  ],
+  "validation_selection_only": true,
+  "test_tuning_permitted": false,
+  "second_tree": "fixed adjacent sector edges, Gaussian conditional pair copulas; not full R-vine",
+  "comparison_status": "post-hoc follow-up on a previously examined 2022-2026 test period",
+  "historic_vintage_verification": "NOT established by this script",
+  "marginal_law": "original train-only fitted univariate t with past 24-week moments"
+}

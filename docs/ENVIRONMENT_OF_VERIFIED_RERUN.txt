@@ -1,0 +1,8 @@
+Python: 3.13.5
+Platform: Linux-6.18.57-x86_64-with-glibc2.41
+numpy: 2.3.5
+scipy: 1.17.0
+pandas: 2.2.3
+torch: 2.10.0+cpu
+sklearn: 1.8.0
+matplotlib: 3.10.8
